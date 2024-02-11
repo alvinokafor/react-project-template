@@ -18,7 +18,7 @@ export default function Home() {
   );
 
   return (
-    <SEOWrapper {...metaData}>
+    <SEOWrapper metaData={metaData}>
       <AppLayout>
         <Heading className="text-center">React Project Starter</Heading>
       </AppLayout>
